@@ -22,7 +22,7 @@ public class Spikehead : EnemyDamage
     private bool attacking;
     private void Update()
     {
-        //move spikehead only if attacing
+        //move spikehead only if attacking
         if(attacking)
             transform.Translate(destination * Time.deltaTime * speed);
         else
